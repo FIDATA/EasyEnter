@@ -53,3 +53,11 @@ management overview.
 Contact:
 Feel free to contact me if you experience any bugs, got questions or similar:
 Via github https://github.com/fg-ok or mail fg@prae-sensation.de 
+
+## Creating Composer package
+
+```
+mkdir build
+composer archive --format=zip --dir=build --file=EasyEnter
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/EasyEnter.zip;composer.version=2.3.0" -T build/EasyEnter.zip
+```

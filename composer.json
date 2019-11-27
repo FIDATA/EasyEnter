@@ -1,0 +1,20 @@
+{
+    "name": "fidata/easy-enter",
+    "description": "MantisBT plugin to slim down the bug report page to make it more accessible for unexperienced users",
+    "type": "mantisbt-plugin",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Frithjof Gnas",
+            "email": "fg@prae-sensation.de"
+        }
+    ],
+    "archive": {
+        "exclude": [
+            "files/*.png",
+            ".gitignore",
+            "README.md",
+            "Vagrantfile"
+        ]
+    }
+}
