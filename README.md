@@ -58,6 +58,6 @@ Via github https://github.com/fg-ok or mail fg@prae-sensation.de
 
 ```
 mkdir build
-composer archive --format=zip --dir=build --file=EasyEnter-2.3.0
-curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/EasyEnter.zip;composer.version=2.3.0" -T build/EasyEnter-2.3.0.zip
+composer archive --format=zip --dir=build --file=EasyEnter-1.2
+curl -u%ARTIFACTORY_USERNAME%:%ARTIFACTORY_PASSWORD% "https://fidata.jfrog.io/fidata/composer-local/fidata/EasyEnter-1.2.zip;composer.version=1.2" -T build/EasyEnter-1.2.zip
 ```
